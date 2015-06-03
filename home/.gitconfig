@@ -1,3 +1,7 @@
 [user]
 	email = marcin.sas-szymanski@anixe.pl
 	name = Marcin Sas-Szymanski
+[pull]
+	default = simple
+[push]
+	default = simple
