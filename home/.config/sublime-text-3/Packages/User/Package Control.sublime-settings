@@ -1,0 +1,12 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Indent XML",
+		"Package Control",
+		"Pretty JSON",
+		"SideBarEnhancements"
+	]
+}
