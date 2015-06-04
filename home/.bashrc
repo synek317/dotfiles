@@ -117,3 +117,7 @@ if ! shopt -oq posix; then
 fi
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+#git
+source /etc/bash_completion.d/git-prompt
+PS1=$PS1'$(__git_ps1 "\[\e[1;33m\](%s) \[\e[0m\] ")'
