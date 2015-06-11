@@ -23,6 +23,7 @@ function current_repository() {
 }
 
 alias ggpull='git pull origin $(current_branch)'
+alias ggreset='git reset --hard origin/$(current_branch)'
 alias ggpush='git push origin $(current_branch)'
 alias ggpush!='git push --force origin $(current_branch)'
 
