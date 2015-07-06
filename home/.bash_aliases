@@ -37,6 +37,7 @@ alias bert='bundle exec rake -T'
 alias pozpmx2='ssh pozpmx2'
 alias pozpp3='ssh pozpp3'
 alias pozpp4='ssh pozpp4'
+alias pozpp5='ssh pozpp5'
 alias pozppacc='ssh pozppacc'
 alias tfr1='ssh tfr1'
 alias tfr2='ssh tfr2'
@@ -45,3 +46,6 @@ alias maint2='ssh maint2'
 
 #.dotfiles
 alias update='~/install.sh --dotfiles'
+
+#exports
+alias ei_vlcb_ari='echo 54d27e3212886b20c800000d'
