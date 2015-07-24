@@ -1,0 +1,68 @@
+{
+ "batchSize" : 50,
+ "connections" : [
+  {
+   "connectionName" : "Localhost",
+   "credentials" : [
+    {
+     "databaseName" : "admin",
+     "enabled" : false,
+     "userName" : "",
+     "userPassword" : ""
+    }
+   ],
+   "defaultDatabase" : "",
+   "serverHost" : "localhost",
+   "serverPort" : 27017
+  },
+  {
+   "connectionName" : "mongo2.hrc.lan",
+   "credentials" : [
+    {
+     "databaseName" : "admin",
+     "enabled" : false,
+     "userName" : "",
+     "userPassword" : ""
+    }
+   ],
+   "defaultDatabase" : "",
+   "serverHost" : "mongo2.hrc.lan",
+   "serverPort" : 27017
+  },
+  {
+   "connectionName" : "mongo2",
+   "credentials" : [
+    {
+     "databaseName" : "admin",
+     "enabled" : false,
+     "userName" : "",
+     "userPassword" : ""
+    }
+   ],
+   "defaultDatabase" : "",
+   "serverHost" : "mongo2",
+   "serverPort" : 27017
+  },
+  {
+   "connectionName" : "pozpmx1.hrc.lan",
+   "credentials" : [
+    {
+     "databaseName" : "admin",
+     "enabled" : false,
+     "userName" : "",
+     "userPassword" : ""
+    }
+   ],
+   "defaultDatabase" : "",
+   "serverHost" : "pozpmx1.hrc.lan",
+   "serverPort" : 27017
+  }
+ ],
+ "disableConnectionShortcuts" : false,
+ "loadMongoRcJs" : false,
+ "style" : "Native",
+ "timeZone" : 0,
+ "uuidEncoding" : 0,
+ "version" : "1.0",
+ "viewMode" : 0
+}
