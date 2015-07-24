@@ -24,6 +24,7 @@ function current_repository() {
 
 alias ggpull='git pull origin $(current_branch)'
 alias ggreset='git reset --hard origin/$(current_branch)'
+alias ggpull!='ggreset; ggpull; ggreset'
 alias ggpush='git push origin $(current_branch)'
 alias ggpush!='git push --force origin $(current_branch)'
 
@@ -47,5 +48,12 @@ alias maint2='ssh maint2'
 #.dotfiles
 alias update='~/install.sh --dotfiles'
 
+#apps
+alias ari='mono-sgen /g/resfinity_ari/Resfinity.ARI.App/bin/Debug/Resfinity.ARI.App.exe'
+
 #exports
 alias ei_vlcb_ari='echo 54d27e3212886b20c800000d'
+alias ei_datamix_v2='echo 55818b4412886b227d000020'
+
+#utils
+alias fix_clip='killall VBoxClient && VBoxClient-all'
