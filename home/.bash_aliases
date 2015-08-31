@@ -54,6 +54,7 @@ alias ari='mono-sgen /g/resfinity_ari/Resfinity.ARI.App/bin/Debug/Resfinity.ARI.
 #exports
 alias ei_vlcb_ari='echo 54d27e3212886b20c800000d'
 alias ei_datamix_v2='echo 55818b4412886b227d000020'
+alias ei_unister='echo 5450ff2412886b0630000027'
 
 #utils
 alias fix_clip='killall VBoxClient && VBoxClient-all'
